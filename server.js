@@ -45,7 +45,7 @@ app.use("/api/cart", cartRouter);
 app.use("/api/order", orderRouter);
 
 app.get("/", (req, res) => {
-  res.sendStatus("API Working");
+  res.status(200).send("API is Working");
 });
 
 app.listen(port, () => {
