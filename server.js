@@ -21,6 +21,7 @@ const allowedOrigins = [
   "https://frontend-admin-psi-green.vercel.app/",
   "http://localhost:5173", // For local development
   "http://localhost:5176", // For local development
+  "http://76.76.21.98:443/"
 ];
 
 // Configure CORS
