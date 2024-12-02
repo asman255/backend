@@ -17,8 +17,8 @@ connectCloudinary();
 app.use(express.json());
 
 const allowedOrigins = [
-  "https://artnakkk-frontend-admin.vercel.app",
-  "http://localhost:5175", // For local development
+  "https://frontend-admin-psi-green.vercel.app",
+  "http://localhost:5173", // For local development
   "http://localhost:5176", // For local development
 ];
 
